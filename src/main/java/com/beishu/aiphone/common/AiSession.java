@@ -32,6 +32,6 @@ public class AiSession {
     /**
      * 服务器IP
      */
-    public static String server_ip;
+    public static String server_ip = "localhost";
     
 }

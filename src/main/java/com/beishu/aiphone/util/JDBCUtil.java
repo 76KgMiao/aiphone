@@ -67,7 +67,7 @@ public class JDBCUtil {
 	**---------------------------------------------------------------------------- */
 	public static Connection getConnection() {
 	    Connection result = null;
-        String url = "jdbc:mysql://" + AiSession.server_ip + ":3306/xi_tong" + connparams;
+        String url = "jdbc:mysql://" + AiSession.server_ip + ":3306/smart_phone" + connparams;
         String username = "root";
         String password = "dev1";
         try {
